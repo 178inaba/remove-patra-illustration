@@ -1,0 +1,12 @@
+{
+  "name": "Remove Patra Illustration",
+  "description": "Remove the female illustration from https://patrainc.jp/.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://patrainc.jp/*"],
+      "js": ["remove_illustration.js"]
+    }
+  ]
+}
